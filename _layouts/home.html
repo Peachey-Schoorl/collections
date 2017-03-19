@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h2>Introduction</h2>
+
+{{ content }}
+
+
+<h2>Available Collections</h2>
+
+<p>The following collections are available:</p>
+
+{% assign entries = site.pages | sort: 'url' %}
+
+<ul>
+  {% for entry in entries %}
+    {% unless entry.url == '/' or entry.url == '/404.html' or entry.url == '/sitemap.xml' or entry.url == '/robots.txt' or entry.url contains "/assets/" %}
+      <li>
+        <a href="{{ entry.url }}">
+          {{ entry.url }}
+        </a>
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+
+<hr>
