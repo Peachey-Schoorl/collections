@@ -1,0 +1,35 @@
+/*=======( General Style )====================================================*/
+.markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 45px;
+    position: relative;
+}
+
+/*=======( Breadcrumbs )======================================================*/
+ol.breadcrumbs {
+    padding: 0;
+}
+.breadcrumbs__item {
+    display: inline-block;
+}
+.breadcrumbs__item:before {
+    /* Uses » to separate breadcrumbs */
+    content: '\00BB';
+}
+.breadcrumbs__item:first-child:before {
+    display: none;
+}
+.breadcrumbs__item:last-child {
+    opacity: 0.5;
+}
+
+/*=======( Collections )======================================================*/
+.have {
+    opacity: 0.35;
+}
+
+
+/********( EOF )***************************************************************/
