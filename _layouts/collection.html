@@ -1,0 +1,50 @@
+---
+layout: default
+---
+{% comment %}
+    @FIXME: The logic in this template needs to be moved to a separate file.
+{% endcomment %}
+{% capture cache %}
+
+{% comment %}
+    @FIXME: opening and closing tags should be macro settings
+{% endcomment %}
+
+    {% assign openingTag = '<ul>' %}
+    {% assign closingTag = '</ul>' %}
+
+    {% assign slug = page.url | remove: 'index.html' | split: '/' | last %}</li>
+    {% for data in site.data %}
+        {% if data[0] == slug %}
+          {% assign collection = data[1] %}
+        {% endif %}
+    {% endfor %}
+
+    {% assign lines = content |  newline_to_br |  split: '<br />' %}
+
+    {% assign inCollection = false %}
+{% endcapture %}{% assign cache = nil %}
+{% for line in lines %}{% capture cache %}
+    {% assign compare = line | strip_newlines | strip  %}
+
+    {%if inCollection == 'true' %}
+        {% assign parts = line | remove: '<li>' | remove: '</li>' | split: ' ' %}
+        {% assign number = parts.first | plus: 0 %}
+
+        {% if collection.entries contains number %}
+            {% assign line2 = parts | join: ' ' | prepend: '<li class="have">' | append: '</li>' %}
+        {% else %}
+            {% assign line2 = parts | join: ' ' | prepend: '<li>' | append: '</li>' %}
+        {% endif %}
+    {% else %}
+        {% assign line2 = line %}
+    {% endif %}
+
+    {% if compare == openingTag %}
+        {% assign inCollection = 'true' %}
+    {% elsif compare == closingTag %}
+        {% assign inCollection = 'false' %}
+        {% assign line2 = line %}
+    {% endif %}
+{% endcapture %}{% assign cache = nil %}{{ line2 }}
+{% endfor %}
