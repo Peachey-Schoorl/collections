@@ -15,7 +15,7 @@ title: 404 - Page Not Found
   {% for entry in entries %}
     {% unless entry.url == '/404.html' or entry.url == '/sitemap.xml' or entry.url == '/robots.txt' or entry.url contains "/assets/" %}
       <li>
-        <a href="{{ entry.url }}">
+        <a href="{{ entry.url | prepend: site.baseurl }}">
           {{ entry.url }}
         </a>
       </li>
