@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.container {
+    position: relative;
+}
+
 /*=======( Breadcrumbs )======================================================*/
 ol.breadcrumbs {
     padding: 0;
@@ -27,6 +31,12 @@ ol.breadcrumbs {
 }
 
 /*=======( Collections )======================================================*/
+.total-count {
+    position: absolute;
+    right: 1em;
+    top: 2em;
+}
+
 .have {
     opacity: 0.35;
 }
