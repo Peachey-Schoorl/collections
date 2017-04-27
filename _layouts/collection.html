@@ -24,6 +24,10 @@ layout: default
 
     {% assign inCollection = false %}
 {% endcapture %}{% assign cache = nil %}
+
+{% assign collection_count = collection.entries.size %}
+{% assign total_count = -1 %}
+
 {% for line in lines %}{% capture cache %}
     {% assign compare = line | strip_newlines | strip  %}
 
@@ -36,6 +40,9 @@ layout: default
         {% else %}
             {% assign line2 = parts | join: ' ' | prepend: '<li>' | append: '</li>' %}
         {% endif %}
+
+        {% assign total_count = total_count |  plus : 1 %}
+
     {% else %}
         {% assign line2 = line %}
     {% endif %}
@@ -48,3 +55,8 @@ layout: default
     {% endif %}
 {% endcapture %}{% assign cache = nil %}{{ line2 }}
 {% endfor %}
+
+<small class="total-count">
+    {{ 100 | divided_by: total_count | times: collection_count }}%
+    ({{ collection_count }} out of {{ total_count }})
+</small>
