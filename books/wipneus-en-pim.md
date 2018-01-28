@@ -1,0 +1,48 @@
+---
+layout: collection
+---
+
+# Wipneus en Pim
+
+De volgende boeken zijn beschikbaar in de "Wipneus en Pim" serie:
+
+- 01 Prins Wipneus en zijn vriendje (1948)
+- 02 Wipneus en Pim gaan op reis (1949)
+- 03 Wipneus en Pim bij de rovers (1950)
+- 04 Wipneus en Pim op Muggeneiland (1951)
+- 05 Waar is Prins Wipneus? (1952)
+- 06 Wipneus en Pim bij Snuffelbaard (1953)
+- 07 Wipneus en Pim bij de Knuppelmannetjes (1954)
+- 08 Wipneus en Pim op speurtocht (1955)
+- 09 Wipneus, Pim en Bonkeltje (1956)
+- 10 Wipneus, Pim en de oude paraplu (1957)
+- 11 Wipneus, Pim en de zeven prinsessen (1958)
+- 12 Wipneus, Pim en het Plaagmannetje (1959)
+- 13 Wipneus, Pim en het circus (1960)
+- 14 Wipneus, Pim en Prinses Platina (1961)
+- 15 Wipneus, Pim en de Wonderauto (1962)
+- 16 Wipneus en Pim op vakantie (1963)
+- 17 Wipneus en Pim en de Zonneparel (1964)
+- 18 Wipneus, Pim en het Groot-Raadselboek (1965)
+- 19 Wipneus, Pim en de toverfluit (1966)
+- 20 Wipneus, Pim en Tum-Tum (1967)
+- 21 Wipneus en Pim halen gouddraad (1968)
+- 22 Wipneus, Pim en de gestolen kroon (1969)
+- 23 Wipneus en Pim helpen dokter Knippeling (1970)
+- 24 Wipneus en Pim bij de Trappertjes (1971)
+- 25 Prins Wipneus en Pim vieren groot feest (1971)
+- 26 Wipneus en Pim in de zilveren raket (1972)
+- 27 Wipneus en Pim zoeken Klepel-Tinus (1973)
+- 28 Wipneus en Pim op stap met Kroko (1974)
+- 29 Wipneus, Pim en de wensput (1975)
+- 30 Wipneus en Pim vinden een tuitkannetje (1976)
+- 31 Wipneus, Pim en de vliegende stoel (1977)
+- 32 Wipneus, Pim en de blauwe jorel (1977)
+- 33 Wipneus en Pim vangen drie sneeuwspoken (1979)
+- 34 Wipneus en Pim naar de Flinten (1980)
+- 35 Wipneus en Pim op de Kleiberg (1981)
+- 36 Wipneus, Pim en malle Trollo (1982)
+- 37 Wipneus en Pim redden oude Rigobert (1983)
+- 38 Prins Wipneus en zijn vriendje Pim (1984)
+- 39 Waar is Prins Wipneus gebleven? (1984)
+- 40 Prins Wipneus wordt koning (1985)
