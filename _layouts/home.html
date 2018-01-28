@@ -18,8 +18,11 @@ layout: default
     {% unless entry.url == '/' or entry.url == '/404.html' or entry.url == '/sitemap.xml' or entry.url == '/robots.txt' or entry.url contains "/assets/" %}
       <li>
         <a href="{{ entry.url | prepend: site.baseurl }}">
-          {{ entry.url }}
+          {{ entry.content | newline_to_br | split: '<br />'  | first | remove_first: "#" }}
         </a>
+        <small>
+          ({{ entry.url | remove_first: "/" | split: '/'  | first }})
+        </small>
       </li>
     {% endunless %}
   {% endfor %}
