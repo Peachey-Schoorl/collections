@@ -57,6 +57,6 @@ layout: default
 {% endfor %}
 
 <small class="total-count">
-    {{ 100 | divided_by: total_count | times: collection_count }}%
+    {{ collection_count | times: 100 | divided_by: total_count }}%
     ({{ collection_count }} out of {{ total_count }})
 </small>
