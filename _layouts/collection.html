@@ -33,9 +33,10 @@ layout: default
 
     {%if inCollection == 'true' %}
         {% assign parts = line | remove: '<li>' | remove: '</li>' | split: ' ' %}
-        {% assign number = parts.first | plus: 0 %}
+        {% assign item = parts.first %}
+        {% assign itemNumber = item | plus: 0 %}
 
-        {% if collection.entries contains number %}
+        {% if collection.entries contains item or collection.entries contains itemNumber  %}
             {% assign line2 = parts | join: ' ' | prepend: '<li class="have">' | append: '</li>' %}
         {% else %}
             {% assign line2 = parts | join: ' ' | prepend: '<li>' | append: '</li>' %}
