@@ -1,4 +1,8 @@
 /*=======( General Style )====================================================*/
+small {
+    opacity: 0.35;
+}
+
 .markdown-body {
     box-sizing: border-box;
     min-width: 200px;
