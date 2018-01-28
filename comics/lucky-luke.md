@@ -42,7 +42,7 @@ The following comics are available in the "Lucky Luke" series:
 - 34 Dalton City
 - 35 Jesse James
 - 36 Western Circus
-- 38 Apache Canyon
+- 37 Apache Canyon
 - 38 Ma Dalton
 - 39 De rijstoorlog
 - 40 De premiejager
