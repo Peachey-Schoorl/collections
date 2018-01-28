@@ -42,3 +42,4 @@ The following comics are available in the "Asterix" series:
 - 34 De verjaardag van Asterix & Obelix: Het guldenboek (2009)
 - 35 Asterix bij de Picten (2013)
 - 36 De papyrus van Caesar (2015)
+- 37 Asterix en de race door de Laars (2017)
