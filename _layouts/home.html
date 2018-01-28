@@ -2,16 +2,23 @@
 layout: default
 ---
 
-<h2>Introduction</h2>
+<h1>Collecties</h1>
+<p>
+  Dit project bevat lijsten met alle collecties die we (als gezin) hebben.
+</p>
+<p>
+  Dit maakt het gemakkelijker om te zien welke items uit een verzameling we nog steeds missen.
+</p>
+<p>
+  Het is ook handig als we een kringloopwinkel bezoeken of iemand een van de ontbrekende items als cadeau wil kopen.
+</p>
+</td>
+<h2>Beschikbare collecties</h2>
+<p>
+  De volgende collecties zijn beschikbaar:
+</p>
 
-{{ content }}
-
-
-<h2>Available Collections</h2>
-
-<p>The following collections are available:</p>
-
-{% assign entries = site.pages | sort: 'url' %}
+{% assign entries = site.pages | sort: 'content' %}
 
 <ul>
   {% for entry in entries %}
