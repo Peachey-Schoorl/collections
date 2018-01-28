@@ -31,29 +31,44 @@ layout: default
 {% for line in lines %}{% capture cache %}
     {% assign compare = line | strip_newlines | strip  %}
 
-    {%if inCollection == 'true' %}
+    {% if compare == openingTag %}
+        {% assign inCollection = 'true' %}
+        {% assign line2 = line %}
+    {% elsif compare == closingTag %}
+        {% assign inCollection = 'false' %}
+        {% assign line2 = line %}
+    {% elsif inCollection == 'true' %}
         {% assign parts = line | remove: '<li>' | remove: '</li>' | split: ' ' %}
+
         {% assign item = parts.first %}
+        {# If `item` is alpha-numeric, `itemNumber` will be 0 #}
         {% assign itemNumber = item | plus: 0 %}
 
-        {% if collection.entries contains item or collection.entries contains itemNumber  %}
+
+        {% if collection.entries contains item %}
+            {# alpha-numeric #}
+            {% assign have = true %}
+        {% elsif collection.entries contains itemNumber and itemNumber != 0 %}
+            {# numeric non-zero #}
+            {% assign have = true %}
+        {% elsif collection.entries contains itemNumber and item == '0' %}
+            {# numeric zero #}
+            {% assign have = true %}
+        {%  else %}
+            {% assign have = false %}
+        {% endif %}
+
+        {% if have == true  %}
             {% assign line2 = parts | join: ' ' | prepend: '<li class="have">' | append: '</li>' %}
         {% else %}
             {% assign line2 = parts | join: ' ' | prepend: '<li>' | append: '</li>' %}
         {% endif %}
 
         {% assign total_count = total_count |  plus : 1 %}
-
     {% else %}
-        {% assign line2 = line %}
+        {% assign line2 = compare %}
     {% endif %}
 
-    {% if compare == openingTag %}
-        {% assign inCollection = 'true' %}
-    {% elsif compare == closingTag %}
-        {% assign inCollection = 'false' %}
-        {% assign line2 = line %}
-    {% endif %}
 {% endcapture %}{% assign cache = nil %}{{ line2 }}
 {% endfor %}
 
