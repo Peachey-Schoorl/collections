@@ -1,0 +1,120 @@
+---
+layout: collection
+---
+
+# Garfield - Pockets
+
+The following comics are available in the "Garfield Pockets" series:
+
+- 001 Pocket 1
+- 002 Pocket 2
+- 003 Pocket 3
+- 004 Pocket 4
+- 005 Pocket 5
+- 006 Pocket 6
+- 007 Pocket 7
+- 008 Pocket 8
+- 009 Pocket 9
+- 010 Pocket 10
+- 011 Pocket 11
+- 012 Pocket 12
+- 013 Pocket 13
+- 014 Pocket 14
+- 015 Pocket 15
+- 016 Pocket 16
+- 017 Pocket 17
+- 018 Pocket 18
+- 019 Pocket 19
+- 020 Pocket 20
+- 021 Pocket 21
+- 022 Pocket 22
+- 023 Pocket 23
+- 024 Pocket 24
+- 025 Pocket 25
+- 026 Pocket 26
+- 027 Pocket 27
+- 028 Pocket 28
+- 029 Pocket 29
+- 030 Pocket 30
+- 031 Pocket 31
+- 032 Pocket 32
+- 033 Pocket 33
+- 034 Pocket 34
+- 035 Pocket 35
+- 036 Pocket 36
+- 037 Pocket 37
+- 038 Pocket 38
+- 039 Pocket 39
+- 040 Pocket 40
+- 041 Pocket 41
+- 042 Pocket 42
+- 043 Pocket 43
+- 044 Pocket 44
+- 045 Pocket 45
+- 046 Pocket 46
+- 047 Pocket 47
+- 048 Pocket 48
+- 049 Pocket 49
+- 050 Pocket 50
+- 051 Pocket 51
+- 052 Pocket 52
+- 053 Pocket 53
+- 054 Pocket 54
+- 055 Pocket 55
+- 056 Pocket 56
+- 057 Pocket 57
+- 058 Pocket 58
+- 059 Pocket 59
+- 060 Pocket 60
+- 061 Pocket 61
+- 062 Pocket 62
+- 072 Garfield oogst wat hij zaait
+- 075 Garfield op grote hoogte
+- 076 Garfield hangt wat rond
+- 077 Garfield staat zijn mannetje
+- 078 Garfield staat in zijn hemd
+- 079 Garfield is je beste vriend
+- 080 Garfield is cool
+- 081 Garfield is een boekenwurm
+- 082 Garfield houdt de score bij
+- 083 Garfield knapt het op
+- 084 Garfield heeft trek
+- 085 Garfield op avontuur
+- 086 Garfield de versierder
+- 087 Garfield van hot naar her
+- 088 Garfield de krabbelaar
+- 089 Garfield slaapt graag uit
+- 090 Ziet het even niet zitten
+- 091 Tijd voor een tukje
+- 092 In goed gezelschap
+- 093 Garfield tast toe
+- 094 Garfield slaat hard toe
+- 095 Garfield de denker
+- 096 Tijd voor een snack
+- 097 Garfield schopt raak
+- 098 Garfield moet op dieet
+- 099 Garfield is toe aan vakantie
+- 100 Al zolang bezig?
+- 101 Een stoere bink
+- 102 Lacht het laatst
+- 103 Garfield houd alles goed bij
+- A1 Garfield
+- A2 Garfield maakt carrière
+- A3 Garfield heeft soms zijn dag niet
+- A4 Garfield laat zich kennen
+- A5 Garfield geeft zichzelf prijs
+- A6 Garfield een gewichtige kat
+- A7 Garfield doet zijn best
+- A8 Garfield heeft er zin in
+- A9 Garfield een kattige vriend
+- A10 Garfield is niet voor de poes
+- A11 Garfield is z'n eigen baas
+- A12 Garfield gaat z'n gang
+- B1 Dieet
+- B2 Slapen
+- B3 Eten
+- B4 Vals?
+- B5 Verliefd
+- C1 Omvangrijker dan ooit!
+- C2 Slaat weer toe
+
