@@ -4,7 +4,7 @@ layout: collection
 
 # Lucky Luke
 
-The following comics are available in the "Lucky Luke" series:
+De volgende stripboeken zijn beschikbaar in de "Lucky Luke" serie:
 
 - 1 Dick Digger's goudmijn
 - 2 Rodeo

@@ -4,7 +4,7 @@ layout: collection
 
 # Guust
 
-The following comics are available in the "Klassieke Guust" series:
+De volgende stripboeken zijn beschikbaar in de "Klassieke Guust" serie:
 
 - 01 **Nr. 0** Gadgets en gags (1985)
 - 02 **Nr. R1** Flaterfestijn (1970)
@@ -23,7 +23,7 @@ The following comics are available in the "Klassieke Guust" series:
 - 15 **Nr. 14** De flater-saga (1982)
 - 16 **Nr. 15** Van flaters tot kraters (1996)
 
-The following comics are available in the "Definitieve Guust" series:
+De volgende stripboeken zijn beschikbaar in de "Definitieve Guust" serie:
 
 - 17 **Nr. 1** Flaters archief (1997/2009)
 - 18 **Nr. 2** Flaterfestijn (1997/2009)

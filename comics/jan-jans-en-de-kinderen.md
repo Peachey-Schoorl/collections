@@ -4,7 +4,8 @@ layout: collection
 
 # Jan, Jans en de Kinderen
 
-The following comics are available in the "Jan, Jans en de Kinderen" series:
+De volgende stripboeken zijn beschikbaar in de "Jan, Jans en de Kinderen" serie:
+
 
 - 1 (1972)
 - 2 (1972)

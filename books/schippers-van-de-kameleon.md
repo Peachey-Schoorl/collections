@@ -4,7 +4,7 @@ layout: collection
 
 # De schippers van de Kameleon
 
-The following books are available in the "De schippers van de Kameleon" series:
+De volgende boeken zijn beschikbaar in de "De schippers van de Kameleon" serie:
 
 - 1 De schippers van de Kameleon (1949)
 - 2 Kameleon, ahoy! (1951)

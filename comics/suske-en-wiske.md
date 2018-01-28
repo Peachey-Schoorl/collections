@@ -4,7 +4,7 @@ layout: collection
 
 # Suske en Wiske
 
-The following comics are available in the "Suske en Wiske" series:
+De volgende stripboeken zijn beschikbaar in de "Suske en Wiske" serie:
 
 - 67 De poenschepper (1966)
 - 68 (Op) Het eiland Amoras (1945)

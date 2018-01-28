@@ -4,7 +4,7 @@ layout: collection
 
 # Asterix
 
-The following comics are available in the "Asterix" series:
+De volgende stripboeken zijn beschikbaar in de "Asterix" serie:
 
 - 1 Asterix de Galliër (1961)
 - 2 Asterix en het ijzeren schild (1968)
