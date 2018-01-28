@@ -135,6 +135,8 @@ De volgende stripboeken zijn beschikbaar in de "Garfield" serie:
 - 127 Zorgt goed voor zichzelf (2017)
 - 128 Het beste uit het Westen (2017)
 
+De volgende stripboeken zijn beschikbaar in de "Garfield" serie:
+
 - A1 Garfield staat er gekleurd op (1994)
 - A2 Garfield de topkat (1995)
 - A3 Garfield geeft z'n mening (1994)
@@ -238,24 +240,22 @@ De volgende stripboeken zijn beschikbaar in de "Garfield" serie:
 - A101 Een stoere bink (2017)
 - A102 Lacht het laatst (2017)
 
+De volgende stripboeken zijn beschikbaar in de "Garfield" serie:
+
 - B1 Garfield (1988)
 - B2 Garfield trekt er op uit (1988)
 - B3 Garfield in de natuur (1988)
 - B4 Garfield vermomt zich (1988)
 - B5 Garfield in Hollywood (1988)
 - B6 Garfield op vakantie (1988)
-
 - C1 Garfield's grote avontuur (1983)
 - C2 Garfield gaat op stap (1984)
-
 - F1 Stripalbum nr. 1 (1987)
-
 - G1 Garfield gaat een eindje (om)
 - G2 Garfield op avontuur (1989)
 - G3 Garfield trekt er op uit (1988)
 - G4 Garfield viert een feestje (1989)
 - G5 Garfield gaat op reis (1989)
-
 - S1 Garfield, Zijn 9 levens (1988)
 - S2 Garfield viert zijn verjaardag (2003)
 - S3 Het grote Garfield humorboek (1987)
