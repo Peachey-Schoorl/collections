@@ -297,7 +297,6 @@ De volgende stripboeken zijn beschikbaar in de "Suske en Wiske (reclame/kortverh
 - I5 Sony-San (1986)
 - I6 Het gouden kuipje (1989)
 - I8 De ademloze adonis (1989/2005)
-
 - R1 Het vliegende hart (1971)
 - R2 De rammelende rally (1958)
 - R3 De snoezige snowijt (1992)
