@@ -287,6 +287,9 @@ De volgende stripboeken zijn beschikbaar in de "Suske en Wiske" serie:
 - 340 Mami Wata (2017)
 - 341 Het Monamysterie (2017)
 - 342 De zwarte zwevers (2017)
+- 343 SOS Snowbell (2018)
+- 344 BRBS 2.0 (2018)
+- 345 Operatie Siggy (2018)
 
 De volgende stripboeken zijn beschikbaar in de "Suske en Wiske (reclame/kortverhaal)" serie:
 
