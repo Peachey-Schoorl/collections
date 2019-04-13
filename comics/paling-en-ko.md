@@ -1,0 +1,82 @@
+---
+layout: collection
+---
+
+# Paling en Ko
+
+De volgende stripboeken zijn beschikbaar in de "Paling en Ko" serie:
+
+ Paling en Ko (Schorpioen/Vrijbuiter/Byblos)
+
+- 1 Het atoomsulfaat (1970-1995)
+- 2 Jacht op de zwarte bende (1971-1988)
+- 3 Paling en Ko op safari (1972-1988)
+- 4 Paling en Ko als Stierenvechters (1972-1988)
+- 5 Het geval van de stokvis (1972-1988)
+- 6 Op dievenjacht (1972-1988)
+- 7 Loetje met het hoedje (1973-1988)
+- 8 De superdetectives (1973-1988)
+- 9 De verander-machine (1973-1974)
+- 10 De geschiedenis van Paling en Ko (1973-1984)
+- 11 De kist met tien sloten (1974-1984)
+- 12 Toto, de tovenaar (1973-1974)
+- 13 Op schilderijenjacht (1974)
+- 14 De uitvindingen van Professor Bacterie (1974)
+- 15 Op de Olympische Spelen (1974-1983)
+- 16 Operatie "Bom" (1976)
+- 17 De diamanten van de gravin (1976)
+- 18 Het levenselixer (1977)
+- 19 WK-Voetbal '78 (1978)
+- 20 Het circus (1978-1986)
+- 21 Het tweede "ik" van Professor Bacterie (1978)
+- 22 De monsters (1978-1985)
+- 23 Het tegengif (1979-1986)
+- 24 Vreemde indringers (1979)
+- 25 Olympiade 1980 (1980)
+- 26 Te wapen! (1980)
+- 27 Paniek in de zoo (1981)
+- 28 Het document van Ali-Ben-Doerak (1981)
+- 29 Een hondenbaan (1982)
+- 30 Als kindervrienden! (1982)
+- 31 De huurlingen (1982)
+- 32 Het spuitelastiek (1982)
+- 33 Het vergelijkend onderzoek (1982)
+- 34 De persoonsvervormer (1983)
+- 35 Paling en Ko in Duitsland (1983)
+- 36 De "bommenwerpers" (1983)
+- 37 Levende wassen beelden (1983)
+- 38 De zaak van het verjongingsmiddel (1984)
+- 39 Autodieven (1984)
+- 40 Olympische Spelen te Los Angeles 1984 (1984-1985)
+- 41 De beestenbrigade (1984)
+- 42 Een vliegtuigkaping (1991)
+- 43 Wat "de wind" achter liet (1991)
+- 44 De builenvangers (1984-1991)
+- 45 Moorddadige radiogolven (1991)
+- 46 Het geval van de sok (1991)
+- 47 De kip met de gouden eieren (1991)
+- 48 Meteorologische hoogstandjes (1991)
+- 49 Het vrouwtje van de melkweg (1991)
+- 50 De rampzalige tuin (1991)
+- 51 Die lieve neefjes! (1992)
+
+De volgende stripboeken zijn beschikbaar in de "Paling en Ko" (Olé-reeks) serie:
+
+- o1a Twee agenten met fratsen (1972)
+- o1b Twee agenten met fratsen (1983)
+- o2 Twee agenten op hol (1972)
+- o3 Gelegenheidsspeurders (1972)
+- o4 Detectives aan huis (1972)
+- o5 Altijd prijs (1973)
+- o6 De oplichters (1974)
+
+De volgende stripboeken zijn beschikbaar in de "Paling en Ko" (Arboris) serie:
+
+- a1 De 20e eeuw, wat een zootje! (2000)
+- a2 De grijze terreur (2001)
+- a3 De Formule 1 (2001)
+- a4 De Noormannen (2001)
+- a5 De computer... wat een ellende! (2002)
+- a6 De filmsterren (2003)
+- a7 Verboden te roken! (2005)
+- a8 Het WK 2006 (2006)
