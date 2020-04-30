@@ -4,6 +4,7 @@ layout: collection
 
 # Suske en Wiske
 
+<!-- source: https://www.stripinfo.be/reeks/index/1857_Suske_en_Wiske -->
 De volgende stripboeken zijn beschikbaar in de "Suske en Wiske" serie:
 
 - 67 De poenschepper (1966)
@@ -290,7 +291,15 @@ De volgende stripboeken zijn beschikbaar in de "Suske en Wiske" serie:
 - 343 SOS Snowbell (2018)
 - 344 BRBS 2.0 (2018)
 - 345 Operatie Siggy (2018)
+- 346 Chronos en Chaos (2018)
+- 347 Lambik plastiek (2019)
+- 348 De wrede wensput (2019)
+- 349 Het lekkere lab (2019)
+- 350 De nacht van de narwal (2019)
+- 351 De verloren Van Eyck (2020)
+- 352 De blanke bergen (2020)
 
+<!-- source: https://www.stripinfo.be/reeks/index/2223_Suske_en_Wiske_reclamekortverhaal -->
 De volgende stripboeken zijn beschikbaar in de "Suske en Wiske (reclame/kortverhaal)" serie:
 
 - I1 De blijde broodeters (1982)
@@ -300,6 +309,7 @@ De volgende stripboeken zijn beschikbaar in de "Suske en Wiske (reclame/kortverh
 - I5 Sony-San (1986)
 - I6 Het gouden kuipje (1989)
 - I8 De ademloze adonis (1989/2005)
+
 - R1 Het vliegende hart (1971)
 - R2 De rammelende rally (1958)
 - R3 De snoezige snowijt (1992)
@@ -367,3 +377,5 @@ De volgende stripboeken zijn beschikbaar in de "Suske en Wiske (reclame/kortverh
 - R69 Het mopperende masker (2015)
 - R70 De angstige avonturen (2015)
 - R71 De zorgzoekers (2017)
+- R72 De tragische tante (2017)
+- R73 Het betoverende boek (2019)
