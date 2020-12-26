@@ -13,10 +13,17 @@ layout: default
     {% assign openingTag = '<ul>' %}
     {% assign closingTag = '</ul>' %}
 
-    {% assign slug = page.url | remove: 'index.html' | split: '/' | last %}</li>
+    {% assign slug = page.url | remove: 'index.html' | split: '/' | last %}
+
     {% for data in site.data %}
         {% if data[0] == slug %}
           {% assign collection = data[1] %}
+        {% endif %}
+    {% endfor %}
+
+    {% for data in site.data.images %}
+        {% if data[0] == slug %}
+            {% assign images = data[1] %}
         {% endif %}
     {% endfor %}
 
@@ -44,7 +51,6 @@ layout: default
         {# If `item` is alpha-numeric, `itemNumber` will be 0 #}
         {% assign itemNumber = item | plus: 0 %}
 
-
         {% if collection.entries contains item %}
             {# alpha-numeric #}
             {% assign have = true %}
@@ -58,10 +64,17 @@ layout: default
             {% assign have = false %}
         {% endif %}
 
+        {% assign image = '' %}
+        {% if images.entries contains item %}
+            {% assign image = '<img src="'  | append: images.entries[item] | append: '" />' %}
+        {% endif %}
+
+        {% assign line2 = parts | join: ' ' | prepend: '<span>' | prepend: image | append: '</span></li>' %}
+
         {% if have == true  %}
-            {% assign line2 = parts | join: ' ' | prepend: '<li class="have">' | append: '</li>' %}
+            {% assign line2 = line2 | prepend: '<li class="have">' %}
         {% else %}
-            {% assign line2 = parts | join: ' ' | prepend: '<li>' | append: '</li>' %}
+            {% assign line2 = line2 | prepend: '<li>' %}
         {% endif %}
 
         {% assign total_count = total_count |  plus : 1 %}
@@ -76,3 +89,11 @@ layout: default
     {{ collection_count | times: 100 | divided_by: total_count }}%
     ({{ collection_count }} out of {{ total_count }})
 </small>
+
+<script>
+    document.querySelectorAll('.container ul').forEach(list => {
+        if (list.querySelectorAll('img').length > 0) {
+          list.classList.add('has-images')
+        }
+    })
+</script>
