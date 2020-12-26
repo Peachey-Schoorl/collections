@@ -52,7 +52,10 @@ ol.breadcrumbs {
     list-style: none;
 }
 
-.has-images img {}
+.has-images img {
+    height: 100%;
+    width: 100%;
+}
 
 .has-images img[src=""] {
     display: block;
