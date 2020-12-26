@@ -45,5 +45,39 @@ ol.breadcrumbs {
     opacity: 0.35;
 }
 
+/*-------( Collection Images )------------------------------------------------*/
+.has-images {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.has-images img {}
+
+.has-images img[src=""] {
+    display: block;
+    width: 8em;
+}
+
+.has-images li {
+    border: 1px solid;
+    margin: 0.1em;
+    max-width: 8em;
+    position: relative;
+}
+
+.has-images li:hover span{
+    opacity: 0.35;
+}
+
+.has-images span {
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    color: white;
+    left: 0;
+    position: absolute;
+    text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+    z-index: 1;
+}
 
 /********( EOF )***************************************************************/
