@@ -62,8 +62,7 @@ De volgende stripboeken zijn beschikbaar in de "Paling en Ko" serie:
 
 De volgende stripboeken zijn beschikbaar in de "Paling en Ko" (Olé-reeks) serie:
 
-- o1a Twee agenten met fratsen (1972)
-- o1b Twee agenten met fratsen (1983)
+- o1 Twee agenten met fratsen (1972/1983)
 - o2 Twee agenten op hol (1972)
 - o3 Gelegenheidsspeurders (1972)
 - o4 Detectives aan huis (1972)
