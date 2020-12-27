@@ -43,3 +43,4 @@ De volgende stripboeken zijn beschikbaar in de "Asterix" serie:
 - 35 Asterix bij de Picten (2013)
 - 36 De papyrus van Caesar (2015)
 - 37 Asterix en de race door de Laars (2017)
+- 38 De dochter van de veldheer (2019)
