@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<form class="switcher-form">
+    <button type="submit" name="hide" value="titles" class="switcher">
+        Hide Titles
+    </button>
+</form>
+
 {% comment %}
     @FIXME: The logic in this template needs to be moved to a separate file.
 {% endcomment %}
@@ -94,6 +100,19 @@ layout: default
     document.querySelectorAll('.container ul').forEach(list => {
         if (list.querySelectorAll('img').length > 0) {
           list.classList.add('has-images')
+          document.body.classList.add('has-collection-with-images')
         }
     })
+
+    const searchParams = new URLSearchParams(window.location.search)
+
+    if (searchParams.has('hide') && searchParams.get('hide') !== '') {
+      const hide = searchParams.get('hide');
+      const switcher = document.querySelector('.switcher')
+
+      switcher.name = ''
+      switcher.innerText = 'Show Titles'
+
+      document.body.classList.add(`hide-${hide}`)
+    }
 </script>

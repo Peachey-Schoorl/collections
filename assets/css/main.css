@@ -83,4 +83,30 @@ ol.breadcrumbs {
     z-index: 1;
 }
 
+.has-collection-with-images.hide-titles .has-images span {
+    display: none;
+}
+
+
+/*-------( Switcher )---------------------------------------------------------*/
+.switcher {
+    background: inherit;
+    border: none;
+}
+
+.switcher:hover {
+    border-bottom: 1px solid;
+    color: inherit;
+}
+
+.switcher-form {
+    display: none;
+    margin-top: 1em;
+    text-align: right;
+    width: 99%;
+}
+
+.has-collection-with-images .switcher-form {
+    display: block;
+}
 /********( EOF )***************************************************************/
