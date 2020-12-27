@@ -20,16 +20,20 @@ small {
 ol.breadcrumbs {
     padding: 0;
 }
+
 .breadcrumbs__item {
     display: inline-block;
 }
+
 .breadcrumbs__item:before {
     /* Uses » to separate breadcrumbs */
     content: '\00BB';
 }
+
 .breadcrumbs__item:first-child:before {
     display: none;
 }
+
 .breadcrumbs__item:last-child {
     opacity: 0.5;
 }
@@ -69,7 +73,7 @@ ol.breadcrumbs {
     position: relative;
 }
 
-.has-images li:hover span{
+.has-images li:hover span {
     opacity: 0.35;
 }
 
