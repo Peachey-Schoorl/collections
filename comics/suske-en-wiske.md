@@ -298,6 +298,9 @@ De volgende stripboeken zijn beschikbaar in de "Suske en Wiske" serie:
 - 350 De nacht van de narwal (2019)
 - 351 De verloren Van Eyck (2020)
 - 352 De blanke bergen (2020)
+- 353 Het gewiste Wiske (2020)
+- 354 De zwijgende Zwollem (2020)
+- 355 De scheve Schot (2020)
 
 <!-- source: https://www.stripinfo.be/reeks/index/2223_Suske_en_Wiske_reclamekortverhaal -->
 De volgende stripboeken zijn beschikbaar in de "Suske en Wiske (reclame/kortverhaal)" serie:
