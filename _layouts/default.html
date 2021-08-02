@@ -12,18 +12,18 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" media="all">
 </head>
 <body class="{{ classnames }}">
-  <article class="markdown-body">
+<article class="markdown-body">
 
-    {% include breadcrumb.lqd %}
+  {% include breadcrumb.lqd %}
 
-    <div class="container">
-      {{ content }}
-    </div>
-  </article>
-
-  <div class="banner banner-right banner-fixed">
-      <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">View on github</a>
+  <div class="container">
+    {{ content }}
   </div>
+</article>
+
+<div class="banner banner-right banner-fixed">
+  <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">View on github</a>
+</div>
 
 </body>
 </html>

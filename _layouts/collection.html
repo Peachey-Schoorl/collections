@@ -12,9 +12,9 @@ layout: default
 {% endcomment %}
 {% capture cache %}
 
-{% comment %}
-    @FIXME: opening and closing tags should be macro settings
-{% endcomment %}
+    {% comment %}
+        @FIXME: opening and closing tags should be macro settings
+    {% endcomment %}
 
     {% assign openingTag = '<ul>' %}
     {% assign closingTag = '</ul>' %}
@@ -23,7 +23,7 @@ layout: default
 
     {% for data in site.data %}
         {% if data[0] == slug %}
-          {% assign collection = data[1] %}
+            {% assign collection = data[1] %}
         {% endif %}
     {% endfor %}
 
@@ -33,7 +33,7 @@ layout: default
         {% endif %}
     {% endfor %}
 
-    {% assign lines = content |  newline_to_br |  split: '<br />' %}
+    {% assign lines = content | newline_to_br | split: '<br />' %}
 
     {% assign inCollection = false %}
 {% endcapture %}{% assign cache = nil %}
@@ -42,7 +42,7 @@ layout: default
 {% assign total_count = -1 %}
 
 {% for line in lines %}{% capture cache %}
-    {% assign compare = line | strip_newlines | strip  %}
+    {% assign compare = line | strip_newlines | strip %}
 
     {% if compare == openingTag %}
         {% assign inCollection = 'true' %}
@@ -66,24 +66,24 @@ layout: default
         {% elsif collection.entries contains itemNumber and item == '0' %}
             {# numeric zero #}
             {% assign have = true %}
-        {%  else %}
+        {% else %}
             {% assign have = false %}
         {% endif %}
 
         {% assign image = '' %}
         {% if images.entries contains item %}
-            {% assign image = '<img src="'  | append: images.entries[item] | append: '" />' %}
+            {% assign image = '<img src="' | append: images.entries[item] | append: '" />' %}
         {% endif %}
 
         {% assign line2 = parts | join: ' ' | prepend: '<span>' | prepend: image | append: '</span></li>' %}
 
-        {% if have == true  %}
+        {% if have == true %}
             {% assign line2 = line2 | prepend: '<li class="have">' %}
         {% else %}
             {% assign line2 = line2 | prepend: '<li>' %}
         {% endif %}
 
-        {% assign total_count = total_count |  plus : 1 %}
+        {% assign total_count = total_count | plus: 1 %}
     {% else %}
         {% assign line2 = compare %}
     {% endif %}
