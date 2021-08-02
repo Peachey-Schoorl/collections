@@ -87,15 +87,43 @@ ol.breadcrumbs {
     z-index: 1;
 }
 
-.has-collection-with-images.hide-titles .has-images span {
+.has-collection-with-images.show-images.hide-titles .has-images span {
     display: none;
 }
 
+.hide-images .has-images {
+    display: block;
+    list-style: initial;
+}
+
+.hide-images .has-images img,
+.hide-images .switcher-form .switcher[value="titles"] {
+    display: none;
+}
+
+.hide-images .has-images li {
+    border: none;
+    max-width: none;
+}
+
+.hide-images .has-images span {
+    background: inherit;
+    color: #0d0d0d;
+    position: static;
+    text-shadow: none;
+}
+
+.hide-owned .have,
+.hide-images .switcher[value="titles"],
+.hide-titles .switcher[value="images"] {
+    display: none;
+}
 
 /*-------( Switcher )---------------------------------------------------------*/
 .switcher {
     background: inherit;
     border: none;
+    display: none;
 }
 
 .switcher:hover {
@@ -104,13 +132,43 @@ ol.breadcrumbs {
 }
 
 .switcher-form {
-    display: none;
     margin-top: 1em;
     text-align: right;
     width: 99%;
 }
 
-.has-collection-with-images .switcher-form {
-    display: block;
+.switcher[value="owned"],
+.has-collection-with-images .switcher[value="images"],
+.has-collection-with-images .switcher[value="titles"] {
+    display: inline-block;
 }
+
+/* ======( Print Styles )==================================================== */
+@media print {
+    .banner, .breadcrumbs, .switcher-form {
+        display: none;
+    }
+
+    .has-images span {
+        background: white;
+        color: #0d0d0d;
+        text-shadow: none;
+    }
+
+    ul {
+        columns: 250px 4;
+    }
+
+    .markdown-body .container li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .has-images li {
+        border: none;
+        break-inside: avoid;
+        margin: 1em;
+    }
+}
+
 /********( EOF )***************************************************************/

@@ -2,7 +2,13 @@
 layout: default
 ---
 <form class="switcher-form">
-    <button type="submit" name="hide" value="titles" class="switcher">
+    <button type="submit" value="owned" class="switcher">
+        Hide Owned
+    </button>
+    <button type="submit" value="images" class="switcher">
+        Hide Images
+    </button>
+    <button type="submit" value="titles" class="switcher">
         Hide Titles
     </button>
 </form>
@@ -97,22 +103,77 @@ layout: default
 </small>
 
 <script>
-    document.querySelectorAll('.container ul').forEach(list => {
-        if (list.querySelectorAll('img').length > 0) {
-          list.classList.add('has-images')
-          document.body.classList.add('has-collection-with-images')
-        }
-    })
+  document.querySelectorAll('.container ul').forEach(list => {
+    if (list.querySelectorAll('img').length > 0) {
+      list.classList.add('has-images')
+      document.body.classList.add('has-collection-with-images')
+      document.body.classList.add('hide-images')
+    }
+  })
 
+  const handlePushStateChange = searchParams => {
+    if (searchParams.has('hide') && searchParams.get('hide') !== '') {
+      const itemsToHide = searchParams.get('hide').split(',')
+      itemsToHide.forEach(hide => {
+        if (hide !== '') {
+          const switcher = document.querySelector(`.switcher[value="${hide}"]`)
+          switcher.name = ''
+          switcher.innerText = switcher.innerText.replace('Hide', 'Show')
+          document.body.classList.remove(`show-${hide}`)
+          document.body.classList.add(`hide-${hide}`)
+        }
+      })
+    }
+
+    if (searchParams.has('show') && searchParams.get('show') !== '') {
+      const itemsToShow = searchParams.get('show').split(',')
+      itemsToShow.forEach(show => {
+        if (show !== '') {
+          const switcher = document.querySelector(`.switcher[value="${show}"]`)
+          switcher.name = ''
+          switcher.innerText = switcher.innerText.replace('Show', 'Hide')
+          document.body.classList.remove(`hide-${show}`)
+          document.body.classList.add(`show-${show}`)
+        }
+      })
+    }
+    history.pushState(null, document.title, '?' + searchParams.toString())
+  }
+
+  /*/ Set default /*/
+  const searchParams = new URLSearchParams(window.location.search)
+  if (searchParams.toString() === '') {
+    searchParams.set('hide', 'images')
+    searchParams.set('show', 'owned,titles')
+  }
+  handlePushStateChange(searchParams)
+
+  /*/ Watch for user changes /*/
+  document.querySelector('.switcher-form').addEventListener('submit', event => {
+    event.preventDefault()
+
+    let itemsToShow, itemsToHide;
     const searchParams = new URLSearchParams(window.location.search)
 
-    if (searchParams.has('hide') && searchParams.get('hide') !== '') {
-      const hide = searchParams.get('hide');
-      const switcher = document.querySelector('.switcher')
+    itemsToShow = searchParams.get('show').split(',');
+    itemsToHide = searchParams.get('hide').split(',');
 
-      switcher.name = ''
-      switcher.innerText = 'Show Titles'
+    const item = event.submitter.value
 
-      document.body.classList.add(`hide-${hide}`)
+    if (itemsToHide.includes(item)) {
+      itemsToHide = itemsToHide.filter(e => e !== item)
+    } else {
+      itemsToHide.push(item)
     }
+    searchParams.set('hide', itemsToHide.join(','))
+
+    if (itemsToShow.includes(item)) {
+      itemsToShow = itemsToShow.filter(e => e !== item)
+    } else {
+      itemsToShow.push(item)
+    }
+    searchParams.set('show', itemsToShow.join(','))
+
+    handlePushStateChange(searchParams);
+  })
 </script>
