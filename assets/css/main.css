@@ -171,4 +171,10 @@ ol.breadcrumbs {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    .hide-images .has-images span {
+        color: #FFF;
+    }
+}
+
 /********( EOF )***************************************************************/
