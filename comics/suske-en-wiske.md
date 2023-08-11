@@ -301,6 +301,20 @@ De volgende stripboeken zijn beschikbaar in de "Suske en Wiske" serie:
 - 353 Het gewiste Wiske (2020)
 - 354 De zwijgende Zwollem (2020)
 - 355 De scheve Schot (2020)
+- 356 De fluitende olifant (2021)
+- 357 De zalige ziener (2021)
+- 358 De drakenprinter (2021)
+- 359 De naamloze 9 (2021)
+- 360 De drijvende dokters (2021)
+- 361 De grot van Gregorius (2022)
+- 362 De kale kroon (2022)
+- 363 De maffe markies (2022)
+- 364 De gulden krijger (2022)
+- 365 De boze boleet (2022)
+- 366 De geplaagde Plantijn (2023)
+- 367 De harteloze Hein (2023)
+- 368 De Rookburgh Rookies (2023)
+- 369 De boterhammenman (2023)
 
 <!-- source: https://www.stripinfo.be/reeks/index/2223_Suske_en_Wiske_reclamekortverhaal -->
 De volgende stripboeken zijn beschikbaar in de "Suske en Wiske (reclame/kortverhaal)" serie:
