@@ -53,8 +53,8 @@ De volgende stripboeken zijn beschikbaar in de "Lucky Luke" serie:
 - 45 Zijne Keizerlijke Hoogheid Smith
 - 46 Zeven korte verhalen
 - 47 De zingende draad
-- 48 De schat van de Daltons
-- 49 De ballade van de Daltons
+- 48 De ballade van de Daltons
+- 49 De schat van de Daltons
 - 50 De éénarmige bandiet
 - 51 De strop van de gehangene
 - 52 Sarah Bernhardt
