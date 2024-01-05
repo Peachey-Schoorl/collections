@@ -55,8 +55,8 @@ De volgende stripboeken zijn beschikbaar in de "Lucky Luke" serie:
 - 47 De zingende draad
 - 48 De ballade van de Daltons
 - 49 De schat van de Daltons
-- 50 De éénarmige bandiet
-- 51 De strop van de gehangene
+- 50 De strop van de gehangene
+- 51 De éénarmige bandiet
 - 52 Sarah Bernhardt
 - 53 Daisy Town
 - 54 Fingers
