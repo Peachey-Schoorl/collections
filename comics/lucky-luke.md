@@ -62,8 +62,8 @@ De volgende stripboeken zijn beschikbaar in de "Lucky Luke" serie:
 - 54 Fingers
 - 55 The Daily Star
 - 56 De verloofde van Lucky Luke
-- 57 Nitroglycerine
-- 58 De duivelsranch
+- 57 De duivelsranch
+- 58 Nitroglycerine
 - 59 Het alibi
 - 60 De pony express
 - 61 De Daltons verliezen hun geheugen
