@@ -42,8 +42,8 @@ De volgende stripboeken zijn beschikbaar in de "Lucky Luke" serie:
 - 34 Dalton City
 - 35 Jesse James
 - 36 Western Circus
-- 37 Apache Canyon
-- 38 Ma Dalton
+- 37 Ma Dalton
+- 38 Apache Canyon
 - 39 De rijstoorlog
 - 40 De premiejager
 - 41 De grootvorst
