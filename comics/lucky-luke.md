@@ -78,3 +78,4 @@ De volgende stripboeken zijn beschikbaar in de "Lucky Luke" serie:
 - 70 De profeet
 - 71 De kunstschilder
 - 72 De legende van het westen
+- 73 Oklahoma Jim
