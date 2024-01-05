@@ -70,10 +70,11 @@ De volgende stripboeken zijn beschikbaar in de "Lucky Luke" serie:
 - 62 Spokenjacht
 - 63 De Daltons op de bruiloft
 - 64 De brug over de Mississipi
-- 65 Belle Starr
-- 66 Klondike
-- 67 Marcel Dalton
-- 68 O.K. Corral
-- 69 De profeet
-- 70 De kunstschilder
-- 71 De legende van het westen
+- 65 Kid Lucky
+- 66 Belle Starr
+- 67 Klondike
+- 68 Marcel Dalton
+- 69 O.K. Corral
+- 70 De profeet
+- 71 De kunstschilder
+- 72 De legende van het westen
