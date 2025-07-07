@@ -70,7 +70,9 @@ ol.breadcrumbs {
     border: 1px solid;
     margin: 0.1em;
     max-width: 8em;
+    min-height: 8em;
     position: relative;
+    width: 8em;
 }
 
 .has-images li:hover span {
