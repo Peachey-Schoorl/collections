@@ -106,6 +106,8 @@ ol.breadcrumbs {
 .hide-images .has-images li {
     border: none;
     max-width: none;
+    min-height: initial;
+    width: initial;
 }
 
 .hide-images .has-images span {
