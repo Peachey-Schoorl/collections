@@ -315,6 +315,21 @@ De volgende stripboeken zijn beschikbaar in de "Suske en Wiske" serie:
 - 367 De harteloze Hein (2023)
 - 368 De Rookburgh Rookies (2023)
 - 369 De boterhammenman (2023)
+- 370 De krijtkampioen (2023)
+- 371 De zoevende zusters (2023)
+- 372 Bolhoed Bik (2024)
+- 373 Klaartje Wakker (2024)
+- 374 De keizerkop (2024)
+- 375 De schakende schim (2024)
+- 376 De boekenduikers (2024)
+- 377 De stenen samoerai (2025)
+- 378 Het ware Witje (2025)
+- 379 Het hondenhart (2025)
+- 380 De correcte Krimson (2025)
+- 381 Het geweven geheim (2025)
+- 382 Het wonderwater (2026)
+- 383 De zwijgende lier (2026)
+- 384 Het laatste lint (2026)
 
 <!-- source: https://www.stripinfo.be/reeks/index/2223_Suske_en_Wiske_reclamekortverhaal -->
 De volgende stripboeken zijn beschikbaar in de "Suske en Wiske (reclame/kortverhaal)" serie:
